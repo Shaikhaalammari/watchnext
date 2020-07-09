@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 //data
 import movies from "./movies";
@@ -6,6 +6,7 @@ import movies from "./movies";
 import { Title, Description, Weblogo, GlobalStyle } from "./styles";
 import MovieItems from "./components/MovieItems";
 import MovieList from "./components/MovieList";
+import MovieDetail from "./components/MovieDetail";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       </Description>
 
       <MovieList />
+
+      <MovieDetail movies={movies} />
     </div>
   );
 }

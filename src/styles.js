@@ -46,3 +46,14 @@ export const ItemWrapper = styled.div`
 export const MovieTitle = styled.div`
   color: #ef962d;
 `;
+
+export const DetailWrapper = styled.div`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    width: 50%;
+    height: 30%;
+  }
+`;

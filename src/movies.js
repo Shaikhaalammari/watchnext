@@ -2,7 +2,7 @@ const movies = [
   {
     id: 1,
     title: "Back to The Future",
-    released: " 3 July 1985",
+    date: " 3 July 1985",
     runtime: "1h 56min",
     genre: " Adventure, Comedy, Sci-Fi",
     plot:
@@ -13,7 +13,7 @@ const movies = [
   {
     id: 2,
     title: "Inception",
-    released: " 16 July 2010",
+    date: " 16 July 2010",
     runtime: "2h 28min ",
     genre: "Action, Adventure, Sci-Fi",
     plot:
@@ -24,7 +24,7 @@ const movies = [
   {
     id: 3,
     title: "The Lord of the Rings: The Fellowship of the Ring ",
-    released: " 19 December 2001",
+    date: " 19 December 2001",
     runtime: "2h 58min",
     genre: " Action, Adventure, Drama ",
     plot:
@@ -36,7 +36,7 @@ const movies = [
   {
     id: 4,
     title: "The Butterfly's Dream",
-    released: "14 March 2013",
+    date: "14 March 2013",
     runtime: "2h 18min",
     genre: " Biography, Drama, History",
     plot:
@@ -47,7 +47,7 @@ const movies = [
   {
     id: 5,
     title: "Forrest Gump",
-    released: " 6 July 1994 ",
+    date: " 6 July 1994 ",
     runtime: " 2h 22min ",
     genre: " Drama, Romance ",
     plot:
@@ -58,7 +58,7 @@ const movies = [
   {
     id: 6,
     title: "The Godfather",
-    released: " 24 March 1972",
+    date: " 24 March 1972",
     runtime: "2h 55min",
     genre: " Crime, Drama",
     plot:
@@ -69,7 +69,7 @@ const movies = [
   {
     id: 7,
     title: "Harry Potter and the Deathly Hallows: Part 2",
-    released: " 15 July 2011",
+    date: " 15 July 2011",
     runtime: " 2h 10min",
     genre: "Adventure, Drama, Fantasy ",
     plot:
