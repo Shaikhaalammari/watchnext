@@ -7,11 +7,14 @@ const MovieItems = (props) => {
 
   return (
     <ItemWrapper>
-      <img src={movie.image} alt={movie.title} />
+      <img
+        src={movie.image}
+        alt={movie.title}
+        onClick={() => props.selectMovie(movie.id)}
+      />
       <MovieTitle>
         <h4>{movie.title}</h4>
       </MovieTitle>
-
       <p> {movie.runtime}</p>
       <p> {movie.genre}</p>
     </ItemWrapper>

@@ -1,14 +1,31 @@
 import React, { useState } from "react";
 import "./App.css";
+
 //data
 import movies from "./movies";
+
 //styles
 import { Title, Description, Weblogo, GlobalStyle } from "./styles";
-import MovieItems from "./components/MovieItems";
+
+//components
 import MovieList from "./components/MovieList";
 import MovieDetail from "./components/MovieDetail";
 
 function App() {
+  const [movie, setMovie] = useState(null);
+
+  const selectMovie = (movieId) => {
+    const selectedMovie = movies.find((movie) => movie.id === movieId);
+    setMovie(selectedMovie);
+  };
+
+  const setView = () =>
+    movie ? (
+      <MovieDetail movie={movie} />
+    ) : (
+      <MovieList selectMovie={selectMovie} />
+    );
+
   return (
     <div>
       <GlobalStyle />
@@ -20,10 +37,7 @@ function App() {
       <Description>
         Dont Waste Time Searching for a Movie!! WATCH NEXT! got your back.
       </Description>
-
-      <MovieList />
-
-      <MovieDetail movies={movies} />
+      {setView()}
     </div>
   );
 }

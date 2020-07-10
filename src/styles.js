@@ -35,7 +35,7 @@ export const ListWrapper = styled.div`
 export const ItemWrapper = styled.div`
   margin: 20px;
   img {
-    width: 200px;
+    width: 150px;
     height: 200px;
   }
   p{
@@ -53,7 +53,7 @@ export const DetailWrapper = styled.div`
   margin-right: auto;
 
   img {
-    width: 50%;
+    width: 20%;
     height: 30%;
   }
 `;
