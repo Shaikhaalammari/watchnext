@@ -72,27 +72,9 @@ export const DimagWrapper = styled.div`
   }
 `;
 
-//   img {
-//     display: block;
-//     width: 20%;
-//     height: 20%;
-//     padding: 5em;
-//     overflow: hidden;
-//     float: left;
-//   }
-//   p {
-//     color: #888888;
-//     letter-spacing: -1px;
-//     padding: 20px;
-//     line-height: 34px;
-//     float: center;
-//     display: block;
-//   }
-//
-// display: block;
-// //    margin-left: 200;
-//     margin-right: 100;
-//  display: flex;
-//   align-items: center
-//   text-align:center
-// font: Barlow Condensed, sans-serif;
+export const BeautyWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+`;
