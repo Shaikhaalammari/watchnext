@@ -47,7 +47,7 @@ export const MovieTitle = styled.div`
   color: #ef962d;
 `;
 
-export const DimagWrapper = styled.div`
+export const DetailWrapper = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -77,4 +77,12 @@ export const BeautyWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 50px;
+`;
+
+export const RecoWrapper = styled.div`
+display: table
+  border-radius: 8px;
+  align-items: right;
+  justify-content: right;
+  display: flex;
 `;

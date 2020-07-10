@@ -10,6 +10,7 @@ import { Title, Description, Weblogo, GlobalStyle } from "./styles";
 //components
 import MovieList from "./components/MovieList";
 import MovieDetail from "./components/MovieDetail";
+import RecoList from "./components/RecoList";
 
 function App() {
   const [movie, setMovie] = useState(null);
