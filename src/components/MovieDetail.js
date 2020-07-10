@@ -1,15 +1,16 @@
 import React from "react";
 
-import { DetailWrapper } from "../styles";
+import { DimagWrapper } from "../styles";
 
 const MovieDetail = (props) => {
   const movie = props.movie;
   return (
-    <DetailWrapper>
+    <DimagWrapper>
       <img src={movie.image} alt={movie.title} />
       <p>{movie.date}</p>
+
       <p> {movie.plot}</p>
-    </DetailWrapper>
+    </DimagWrapper>
   );
 };
 export default MovieDetail;

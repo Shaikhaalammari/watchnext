@@ -47,13 +47,52 @@ export const MovieTitle = styled.div`
   color: #ef962d;
 `;
 
-export const DetailWrapper = styled.div`
+export const DimagWrapper = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
 
   img {
+    display: block;
     width: 20%;
-    height: 30%;
+    height: 20%;
+    padding: -1em;
+    overflow: hidden;
+    float: left;
+  }
+
+  p {
+    font-size: 20px;
+    color: #f0a500;
+    text-aling: justify;
+    text-align-last: center;
+    vertical-align: middle;
+    text-indent: 50px;
   }
 `;
+
+//   img {
+//     display: block;
+//     width: 20%;
+//     height: 20%;
+//     padding: 5em;
+//     overflow: hidden;
+//     float: left;
+//   }
+//   p {
+//     color: #888888;
+//     letter-spacing: -1px;
+//     padding: 20px;
+//     line-height: 34px;
+//     float: center;
+//     display: block;
+//   }
+//
+// display: block;
+// //    margin-left: 200;
+//     margin-right: 100;
+//  display: flex;
+//   align-items: center
+//   text-align:center
+// font: Barlow Condensed, sans-serif;
