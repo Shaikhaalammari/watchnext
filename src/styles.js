@@ -7,7 +7,7 @@ export const Title = styled.h1`
 
 export const Description = styled.h4`
   text-align: center;
-  color: #888888;
+  color: #f0f0f0;
 `;
 
 export const Weblogo = styled.img`
@@ -21,7 +21,7 @@ export const Weblogo = styled.img`
 export const GlobalStyle = createGlobalStyle`
 body {
   color: #706c61;
-  background-color: #dbdbdb
+  background-color:#2b2b28;
 }
 `;
 
@@ -41,7 +41,7 @@ export const ItemWrapper = styled.div`
     height: 200px;
   }
   p{
-    color:  #888888;}
+    color:  #f0f0f0;}
   }
   
 `;
@@ -83,9 +83,16 @@ export const BeautyWrapper = styled.div`
 `;
 
 export const RecoWrapper = styled.div`
-display: table
-  border-radius: 8px;
-  align-items: right;
-  justify-content: right;
-  display: flex;
+display table
+  border-radius 8px;
+  align-items right;
+  justify-content right;
+  display flex;
+`;
+export const ImageReco = styled.div`
+  margin 20px;
+  img {
+    width 150px;
+    height 200px;
+  }
 `;

@@ -9,6 +9,7 @@ const movies = [
       "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.",
     image:
       "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,643,1000_AL_.jpg",
+    trailer: "https://www.youtube.com/embed/qvsgGtivCgs",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const movies = [
       "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
     image:
       "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+    trailer: "https://www.youtube.com/embed/YoHD9XEInc0",
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const movies = [
 
     image:
       "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY999_CR0,0,673,999_AL_.jpg",
+    trailer: "https://www.youtube.com/embed/V75dMMIW2B4",
   },
   {
     id: 4,
@@ -43,7 +46,9 @@ const movies = [
       "In a small Turkish town, two young tuberculous poets try to survive while publishing their poems. As they both fall in love, their life would never be the same.",
     image:
       "https://m.media-amazon.com/images/M/MV5BMGI2ZTc4NzQtNmI0OS00ODI0LTgyMmYtZWY1MjJiMzc2NzkzXkEyXkFqcGdeQXVyNjIxMDkyODY@._V1_.jpg",
+    trailer: "https://www.youtube.com/embed/AtHirtYl0v0",
   },
+
   {
     id: 5,
     title: "Forrest Gump",
@@ -54,6 +59,7 @@ const movies = [
       "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart..",
     image:
       "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    trailer: "https://www.youtube.com/embed/bLvqoHBptjg",
   },
   {
     id: 6,
@@ -65,6 +71,7 @@ const movies = [
       "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
     image:
       "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg",
+    trailer: "https://www.youtube.com/embed/sY1S34973zA",
   },
   {
     id: 7,
@@ -76,6 +83,7 @@ const movies = [
       "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
     image:
       "https://m.media-amazon.com/images/M/MV5BMjIyZGU4YzUtNDkzYi00ZDRhLTljYzctYTMxMDQ4M2E0Y2YxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX667_CR0,0,667,999_AL_.jpg",
+    trailer: "https://www.youtube.com/embed/5NYt1qirBWg",
   },
 ];
 

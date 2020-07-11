@@ -10,19 +10,34 @@ const MovieDetail = (props) => {
 
   const movie = props.movies.find((movie) => movie.id === +movieId);
   return (
-    <>
-      <DetailWrapper>
-        <img src={movie.image} alt={movie.title} />
+    <DetailWrapper>
+      <img src={movie.image} alt={movie.title} />
 
-        <p>{movie.date}</p>
-        <p> {movie.plot}</p>
-        <Link to="/movies"> back to movies </Link>
-        <BeautyStars />
-      </DetailWrapper>
-    </>
-    // <RecoWrapper>
-    //     <RecoList></RecoList>
-    //   </RecoWrapper>
+      <p>{movie.date}</p>
+      <p> {movie.plot}</p>
+      <BeautyStars />
+      <center>
+        <iframe
+          padding="-15em"
+          width="470px"
+          height="230px"
+          src={movie.trailer}
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </center>
+      <br></br>
+      <br></br>
+      <RecoList />
+      <Link to="/movies">
+        {" "}
+        <img
+          src="https://media1.giphy.com/media/fAET4eXc6ygpeFRUsF/giphy.gif"
+          style={{ width: 150 }}
+        />{" "}
+      </Link>
+    </DetailWrapper>
   );
 };
 

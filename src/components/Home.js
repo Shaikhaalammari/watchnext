@@ -12,10 +12,16 @@ const Home = () => {
       />
       <Description>
         Dont Waste Time Searching for a Movie!! WATCH NEXT! got your back.
+        <br></br>
+        <br></br>
+        <p>Click on PopCorn!!</p>
+        <Link to="/movies" style={{ margin: 30, align: "center" }}>
+          <img
+            src="https://media1.giphy.com/media/fAET4eXc6ygpeFRUsF/giphy.gif"
+            style={{ width: 150, align: "center" }}
+          />
+        </Link>
       </Description>
-      <Link to="/movies" style={{ margin: 30, float: "center" }}>
-        Go to movies
-      </Link>
     </>
   );
 };

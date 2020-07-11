@@ -1,14 +1,18 @@
 import React from "react";
-import MovieList from "./MovieList";
-import MovieItem from "./MovieItems";
-import movies from "../movies";
+import films from "../films";
+import RecoItem from "./RecoItems";
 import { RecoWrapper } from "../styles";
 
 const RecoList = (props) => {
-  const RecoList = movies.map((movie) => (
-    <RecoList movie={movie} selectMovie={props.selectMovie} key={movie.id} />
+  const RecoList = films.map((film) => (
+    <RecoItem film={film} selectFilm={props.selectfilm} key={film.id} />
   ));
-  return <RecoWrapper>{RecoList}</RecoWrapper>;
+  return (
+    <>
+      <img src="https://i.giphy.com/media/cIyxANDLCi0opVMSJP/200w.webp" />
+      <RecoWrapper>{RecoList}</RecoWrapper>
+    </>
+  );
 };
 
 export default RecoList;

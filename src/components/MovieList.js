@@ -11,5 +11,6 @@ const MovieList = (props) => {
 
   return <ListWrapper>{MovieList}</ListWrapper>;
 };
-
 export default MovieList;
+
+//serach bar
