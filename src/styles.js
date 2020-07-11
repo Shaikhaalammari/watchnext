@@ -14,8 +14,8 @@ export const Weblogo = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 `;
 
 export const GlobalStyle = createGlobalStyle`
@@ -95,4 +95,20 @@ export const ImageReco = styled.div`
     width 150px;
     height 200px;
   }
+`;
+export const SearchBarStyled = styled.input`
+  height: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  background-color: #706c61;
+`;
+export const Homelogo = styled.img`
+  display: block;
+  margin-left: 100%;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
 `;

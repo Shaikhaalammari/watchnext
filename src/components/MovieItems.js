@@ -1,7 +1,8 @@
 import React from "react";
-import { ItemWrapper, MovieTitle } from "../styles";
-import movies from "../movies";
 import { Link } from "react-router-dom";
+
+//styles
+import { ItemWrapper, MovieTitle } from "../styles";
 
 const MovieItems = (props) => {
   const movie = props.movie;
@@ -19,6 +20,5 @@ const MovieItems = (props) => {
     </ItemWrapper>
   );
 };
-// plot and release date take it to details
 
 export default MovieItems;

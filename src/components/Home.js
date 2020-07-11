@@ -1,6 +1,8 @@
 import React from "react";
-import { Title, Description, Weblogo } from "../styles";
 import { Link } from "react-router-dom";
+
+//styles
+import { Title, Description, Weblogo } from "../styles";
 
 const Home = () => {
   return (

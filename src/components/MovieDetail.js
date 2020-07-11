@@ -1,14 +1,21 @@
 import React from "react";
-import BeautyStars from "./BeautyStars";
-import { DetailWrapper, RecoWrapper } from "../styles";
-import RecoList from "./RecoList";
 import { Link, useParams } from "react-router-dom";
+import BeautyStars from "./BeautyStars";
+
+//style
+import { DetailWrapper } from "../styles";
+
+//components
+import RecoList from "./RecoList";
+//data
 import movies from "../movies";
 
 const MovieDetail = (props) => {
   const { movieId } = useParams();
 
   const movie = props.movies.find((movie) => movie.id === +movieId);
+
+  // const RecoMovie = (movie = movie.find((movie) => movie.type === movies.type));
   return (
     <DetailWrapper>
       <img src={movie.image} alt={movie.title} />
@@ -17,6 +24,7 @@ const MovieDetail = (props) => {
       <p> {movie.plot}</p>
       <BeautyStars />
       <center>
+        <p>Don't Miss The Trailler!!</p>
         <iframe
           padding="-15em"
           width="470px"

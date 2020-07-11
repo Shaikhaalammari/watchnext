@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import BeautyStars from "beauty-stars";
+
+//style
 import { BeautyWrapper } from "../styles";
 
 export default class App extends Component {

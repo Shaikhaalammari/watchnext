@@ -10,6 +10,7 @@ const movies = [
     image:
       "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,643,1000_AL_.jpg",
     trailer: "https://www.youtube.com/embed/qvsgGtivCgs",
+    type: "Adventure",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const movies = [
     image:
       "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
     trailer: "https://www.youtube.com/embed/YoHD9XEInc0",
+    type: "Action",
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ const movies = [
     image:
       "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY999_CR0,0,673,999_AL_.jpg",
     trailer: "https://www.youtube.com/embed/V75dMMIW2B4",
+    type: "Adventure",
   },
   {
     id: 4,
@@ -47,6 +50,7 @@ const movies = [
     image:
       "https://m.media-amazon.com/images/M/MV5BMGI2ZTc4NzQtNmI0OS00ODI0LTgyMmYtZWY1MjJiMzc2NzkzXkEyXkFqcGdeQXVyNjIxMDkyODY@._V1_.jpg",
     trailer: "https://www.youtube.com/embed/AtHirtYl0v0",
+    type: "Drama",
   },
 
   {
@@ -60,6 +64,7 @@ const movies = [
     image:
       "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
     trailer: "https://www.youtube.com/embed/bLvqoHBptjg",
+    type: "Drama",
   },
   {
     id: 6,
@@ -72,6 +77,7 @@ const movies = [
     image:
       "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg",
     trailer: "https://www.youtube.com/embed/sY1S34973zA",
+    type: "Drama",
   },
   {
     id: 7,
@@ -84,7 +90,22 @@ const movies = [
     image:
       "https://m.media-amazon.com/images/M/MV5BMjIyZGU4YzUtNDkzYi00ZDRhLTljYzctYTMxMDQ4M2E0Y2YxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX667_CR0,0,667,999_AL_.jpg",
     trailer: "https://www.youtube.com/embed/5NYt1qirBWg",
+    type: "Adventure",
   },
+  // {
+  //   id: ,
+  //   title: "Harry Potter and the Deathly Hallows: Part 2",
+  //   date: " 15 July 2011",
+  //   runtime: " 2h 10min",
+  //   genre: "Adventure, Drama, Fantasy ",
+  //   plot:
+  //     "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+  //   image:
+  //      "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+  //   trailer: "https://www.youtube.com/embed/5NYt1qirBWg",
+  //   type: "Adventure",
+  //   ,
+  // },
 ];
 
 export default movies;
