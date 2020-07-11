@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import "./App.css";
+import { Route, Switch } from "react-router";
+import { useHistory } from "react-router-dom";
 
 //data
 import movies from "./movies";
 
 //styles
-import { Title, Description, Weblogo, GlobalStyle } from "./styles";
+import { GlobalStyle } from "./styles";
 
 //components
 import MovieList from "./components/MovieList";
 import MovieDetail from "./components/MovieDetail";
 import RecoList from "./components/RecoList";
+import Home from "./components/Home";
 
 function App() {
   const [movie, setMovie] = useState(null);
@@ -20,26 +23,23 @@ function App() {
     setMovie(selectedMovie);
   };
 
-  const setView = () =>
-    movie ? (
-      <MovieDetail movie={movie} />
-    ) : (
-      <MovieList selectMovie={selectMovie} />
-    );
-
   return (
-    <div>
+    <>
       <GlobalStyle />
-      <Title>Watch Next!</Title>
-      <Weblogo
-        src="https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png"
-        alt="movieslogo"
-      />
-      <Description>
-        Dont Waste Time Searching for a Movie!! WATCH NEXT! got your back.
-      </Description>
-      {setView()}
-    </div>
+
+      <Switch>
+        <Route path="/movies/:movieId">
+          <MovieDetail movies={movie} />
+        </Route>
+        <Route path="/movies">
+          <MovieList selectMovie={selectMovie} />
+        </Route>
+
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </>
   );
 }
 

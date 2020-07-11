@@ -1,17 +1,16 @@
 import React from "react";
 import { ItemWrapper, MovieTitle } from "../styles";
 import movies from "../movies";
+import { Link } from "react-router-dom";
 
 const MovieItems = (props) => {
   const movie = props.movie;
 
   return (
     <ItemWrapper>
-      <img
-        src={movie.image}
-        alt={movie.title}
-        onClick={() => props.selectMovie(movie.id)}
-      />
+      <Link to={`/movies/${movie.id}`}>
+        <img src={movie.image} alt={movie.title} />
+      </Link>
       <MovieTitle>
         <h4>{movie.title}</h4>
       </MovieTitle>
