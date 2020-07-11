@@ -29,7 +29,7 @@ function App() {
 
       <Switch>
         <Route path="/movies/:movieId">
-          <MovieDetail movies={movie} />
+          <MovieDetail movies={movies} />
         </Route>
         <Route path="/movies">
           <MovieList selectMovie={selectMovie} />

@@ -30,10 +30,12 @@ export const ListWrapper = styled.div`
   align-items: right;
   justify-content: right;
   display: flex;
+  flex-wrap: wrap;
 `;
 
 export const ItemWrapper = styled.div`
   margin: 20px;
+  width:150px;
   img {
     width: 150px;
     height: 200px;
@@ -41,6 +43,7 @@ export const ItemWrapper = styled.div`
   p{
     color:  #888888;}
   }
+  
 `;
 
 export const MovieTitle = styled.div`
